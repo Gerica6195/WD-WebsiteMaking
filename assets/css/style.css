@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    body {
+    background-color: rgb(230, 194, 211);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(139, 18, 68);
+}
+h2 {
+    color: black;
+}
+p {
+    line-height: 1.6;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-area {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove rgb(167, 84, 111);
+}
+.container{
+    background: rgb(255, 221, 232);
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1400px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.header {
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+.header h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(155, 79, 90);
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 30px;
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 2;
+}
+h2{
+    background: pink;
+    padding: 15px;
+    color: rgb(173, 86, 115);
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+}
+.right{
+    flex: 1;
+    padding: 30px;
+}
+.right h3{
+    margin-bottom: 15px;
+}
+.right p{
+    line-height: 1.5;
+}
+@media only screen and(min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 95%;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .left,
+    .right{
+        flex: none;
+        width: 100%;
+    }
+    .container{
+        width: 95%;
+        height: auto;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+.iconTxt{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    & > h3{
+        margin-bottom: 0%;
+    }
+}
+.iconTxt1 {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    & > h3{
+        margin-bottom: 0%;
+    }
+}
+.iconTxt a{
+    color: black;
+}
+
+.iconTxt1 a{
+    color:black;
+}
