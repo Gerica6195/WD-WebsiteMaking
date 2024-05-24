@@ -109,6 +109,5 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+| How to create a responsive resume CV website using HTML and CSS | i used it as my basis for my coding and also for guide since i'm still not sure about what am i doing in terms of coding html and css | https://www.youtube.com/watch?v=lTqw_op6anw&t=490s |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
